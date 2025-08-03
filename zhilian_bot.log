@@ -1,0 +1,987 @@
+2025-08-03 16:40:24 | INFO     | __main__:run:308 - 启动智联招聘机器人...
+2025-08-03 16:40:24 | INFO     | __main__:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 16:40:57 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 16:40:57 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 16:40:57 | INFO     | __main__:initialize:58 - 机器人初始化完成
+2025-08-03 16:41:44 | ERROR    | modules.login:login_with_password:69 - 用户名或密码未配置
+2025-08-03 16:41:44 | ERROR    | __main__:run:317 - 登录失败
+2025-08-03 16:41:44 | INFO     | __main__:stop:343 - 正在停止机器人...
+2025-08-03 16:41:44 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 16:41:44 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 16:41:47 | INFO     | modules.login:close:226 - 浏览器已关闭
+2025-08-03 16:41:47 | INFO     | __main__:stop:359 - 机器人已停止
+2025-08-03 16:50:30 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 16:50:42 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 16:50:42 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 16:50:42 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 16:51:44 | INFO     | modules.login:login_with_password:72 - 开始密码登录...
+2025-08-03 16:52:43 | WARNING  | modules.login:login_with_password:86 - 未找到密码登录选项卡，可能已经在密码登录页面
+2025-08-03 16:53:14 | ERROR    | modules.login:login_with_password:108 - 密码登录失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xc6ba83+63395]
+	GetHandleVerifier [0x0xc6bac4+63460]
+	(No symbol) [0x0xab2113]
+	(No symbol) [0x0xafa85e]
+	(No symbol) [0x0xafabfb]
+	(No symbol) [0x0xb42f92]
+	(No symbol) [0x0xb1f3f4]
+	(No symbol) [0x0xb407ba]
+	(No symbol) [0x0xb1f1a6]
+	(No symbol) [0x0xaee7b2]
+	(No symbol) [0x0xaef654]
+	GetHandleVerifier [0x0xee8883+2672035]
+	GetHandleVerifier [0x0xee3cba+2652634]
+	GetHandleVerifier [0x0xc92bca+223466]
+	GetHandleVerifier [0x0xc82cb8+158168]
+	GetHandleVerifier [0x0xc8978d+185517]
+	GetHandleVerifier [0x0xc73b78+96408]
+	GetHandleVerifier [0x0xc73d02+96802]
+	GetHandleVerifier [0x0xc5e90a+9770]
+	BaseThreadInitThunk [0x0x756afa29+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b5e+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b2e+238]
+
+2025-08-03 16:53:14 | ERROR    | __main__:example_get_candidate_details:100 - 登录失败
+2025-08-03 16:53:14 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 16:53:14 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 16:53:14 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 16:53:18 | INFO     | modules.login:close:226 - 浏览器已关闭
+2025-08-03 16:53:18 | INFO     | zhilian_bot:stop:359 - 机器人已停止
+2025-08-03 17:03:01 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 17:03:11 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 17:03:11 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 17:03:11 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 17:03:42 | WARNING  | modules.login:auto_login:266 - 密码登录已不被支持，尝试使用手机验证码登录
+2025-08-03 17:03:42 | INFO     | modules.login:login_with_sms:71 - 开始手机验证码登录...
+2025-08-03 17:04:06 | INFO     | modules.login:login_with_sms:84 - 已输入手机号: admin
+2025-08-03 17:04:07 | INFO     | modules.login:login_with_sms:93 - 已点击获取验证码按钮
+2025-08-03 17:04:09 | INFO     | modules.login:login_with_sms:100 - 请查看手机短信并输入验证码...
+2025-08-03 17:04:09 | INFO     | modules.login:_wait_for_sms_input:112 - 等待验证码输入...
+2025-08-03 17:06:13 | WARNING  | modules.login:_wait_for_sms_input:152 - 自动检测验证码输入超时，请手动完成登录
+2025-08-03 17:06:20 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:06:20 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:06:20 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:06:20 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:06:22 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:06:22 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:06:22 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:06:22 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:06:38 | INFO     | modules.login:close:280 - 浏览器已关闭
+2025-08-03 17:06:38 | INFO     | zhilian_bot:stop:359 - 机器人已停止
+2025-08-03 17:06:38 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:06:38 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:06:38 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:06:56 | INFO     | modules.login:close:280 - 浏览器已关闭
+2025-08-03 17:06:56 | INFO     | zhilian_bot:stop:359 - 机器人已停止
+2025-08-03 17:07:25 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 17:07:34 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 17:07:34 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 17:07:34 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 17:08:05 | INFO     | modules.login:login_with_sms:71 - 开始手机验证码登录...
+2025-08-03 17:08:14 | INFO     | modules.login:login_with_sms:84 - 已输入手机号: admin
+2025-08-03 17:08:14 | INFO     | modules.login:login_with_sms:93 - 已点击获取验证码按钮
+2025-08-03 17:08:16 | INFO     | modules.login:login_with_sms:100 - 请查看手机短信并输入验证码...
+2025-08-03 17:08:16 | INFO     | modules.login:_wait_for_sms_input:112 - 等待验证码输入...
+2025-08-03 17:08:29 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:08:29 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:08:29 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:08:29 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:08:35 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:08:35 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:08:35 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:08:35 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:08:37 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:08:37 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:08:37 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:08:37 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:08:55 | INFO     | modules.login:close:280 - 浏览器已关闭
+2025-08-03 17:08:55 | INFO     | zhilian_bot:stop:359 - 机器人已停止
+2025-08-03 17:10:24 | WARNING  | modules.login:_wait_for_sms_input:152 - 自动检测验证码输入超时，请手动完成登录
+2025-08-03 17:12:01 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:12:01 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:12:01 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:12:01 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:12:03 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:12:03 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:12:03 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:12:03 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:12:10 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:12:10 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:12:10 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:12:10 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:12:26 | INFO     | modules.login:close:280 - 浏览器已关闭
+2025-08-03 17:12:26 | INFO     | zhilian_bot:stop:359 - 机器人已停止
+2025-08-03 17:12:26 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:12:26 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:12:26 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:12:38 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:12:38 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:12:38 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:12:38 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:12:40 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:12:40 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:12:40 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:12:40 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:14:27 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 17:14:43 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 17:14:44 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 17:14:44 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 17:15:17 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 17:15:33 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 17:15:33 | INFO     | modules.login:login_with_sms:94 - 已点击获取验证码按钮
+2025-08-03 17:15:35 | INFO     | modules.login:login_with_sms:101 - 请查看手机短信并输入验证码...
+2025-08-03 17:15:35 | INFO     | modules.login:_wait_for_sms_input:113 - 等待验证码输入...
+2025-08-03 17:17:47 | WARNING  | modules.login:_wait_for_sms_input:153 - 自动检测验证码输入超时，请手动完成登录
+2025-08-03 17:18:33 | INFO     | modules.login:_wait_for_login_success:201 - 等待登录成功...
+2025-08-03 17:18:33 | INFO     | modules.login:_wait_for_login_success:210 - 登录成功！
+2025-08-03 17:18:33 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Java开发
+2025-08-03 17:18:33 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 17:19:09 | WARNING  | modules.candidate:_parse_candidate_list:137 - 页面加载超时
+2025-08-03 17:19:09 | INFO     | modules.candidate:search_candidates:74 - 没有更多候选人，停止搜索
+2025-08-03 17:19:09 | INFO     | modules.candidate:search_candidates:83 - 搜索完成，共找到 0 个候选人
+2025-08-03 17:19:09 | WARNING  | __main__:example_get_candidate_details:123 - 未找到候选人
+2025-08-03 17:19:09 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:19:09 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:19:09 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:19:14 | INFO     | modules.login:close:281 - 浏览器已关闭
+2025-08-03 17:19:14 | INFO     | zhilian_bot:stop:359 - 机器人已停止
+2025-08-03 17:27:20 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 17:27:32 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 17:27:32 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 17:27:32 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 17:28:17 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 17:28:27 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 17:28:28 | INFO     | modules.login:login_with_sms:119 - 已勾选用户服务协议
+2025-08-03 17:28:29 | INFO     | modules.login:login_with_sms:141 - 已点击获取验证码按钮
+2025-08-03 17:28:31 | INFO     | modules.login:login_with_sms:148 - 请查看手机短信并输入验证码...
+2025-08-03 17:28:31 | INFO     | modules.login:_wait_for_sms_input:160 - 等待验证码输入...
+2025-08-03 17:30:32 | WARNING  | modules.login:_wait_for_sms_input:200 - 自动检测验证码输入超时，请手动完成登录
+2025-08-03 17:31:31 | INFO     | modules.login:_wait_for_login_success:248 - 等待登录成功...
+2025-08-03 17:31:50 | INFO     | modules.login:_wait_for_login_success:257 - 登录成功！
+2025-08-03 17:31:50 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Java开发
+2025-08-03 17:31:50 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 17:36:19 | INFO     | modules.candidate:_parse_candidate_list:224 - 找到 391 个职位卡片
+2025-08-03 17:38:50 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:38:50 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:38:50 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:38:50 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:38:52 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:38:52 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:38:52 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:38:52 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:38:56 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:38:56 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:38:56 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:38:56 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:39:18 | INFO     | modules.login:close:328 - 浏览器已关闭
+2025-08-03 17:39:18 | INFO     | zhilian_bot:stop:359 - 机器人已停止
+2025-08-03 17:42:10 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:42:10 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:42:10 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:42:10 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:42:12 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:42:12 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:42:12 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:42:12 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:42:34 | INFO     | modules.login:close:328 - 浏览器已关闭
+2025-08-03 17:42:34 | INFO     | zhilian_bot:stop:359 - 机器人已停止
+2025-08-03 17:44:53 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 17:45:03 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 17:45:03 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 17:45:03 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 17:45:39 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 17:45:50 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 17:45:50 | INFO     | modules.login:login_with_sms:119 - 已勾选用户服务协议
+2025-08-03 17:45:52 | INFO     | modules.login:login_with_sms:141 - 已点击获取验证码按钮
+2025-08-03 17:45:54 | INFO     | modules.login:login_with_sms:148 - 请查看手机短信并输入验证码...
+2025-08-03 17:45:54 | INFO     | modules.login:_wait_for_sms_input:160 - 等待验证码输入...
+2025-08-03 17:46:54 | INFO     | modules.login:_wait_for_sms_input:199 - 检测到验证码已输入，尝试登录...
+2025-08-03 17:46:56 | INFO     | modules.login:_wait_for_login_success:274 - 等待登录成功...
+2025-08-03 17:47:29 | INFO     | modules.login:_wait_for_login_success:283 - 登录成功！
+2025-08-03 17:47:29 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Java开发
+2025-08-03 17:47:29 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 17:48:13 | INFO     | modules.candidate:_parse_candidate_list:289 - 找到 20 个职位卡片
+2025-08-03 17:58:35 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:58:35 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:58:35 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:58:35 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:58:38 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 17:58:38 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 17:58:38 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 17:58:38 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 17:59:04 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 17:59:32 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 17:59:43 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 17:59:43 | INFO     | modules.login:login_with_sms:119 - 已勾选用户服务协议
+2025-08-03 17:59:44 | INFO     | modules.login:login_with_sms:141 - 已点击获取验证码按钮
+2025-08-03 17:59:46 | INFO     | modules.login:login_with_sms:148 - 请查看手机短信并输入验证码...
+2025-08-03 17:59:46 | INFO     | modules.login:_wait_for_sms_input:160 - 等待验证码输入...
+2025-08-03 18:00:47 | INFO     | modules.login:_wait_for_sms_input:199 - 检测到验证码已输入，尝试登录...
+2025-08-03 18:00:49 | INFO     | modules.login:_wait_for_login_success:274 - 等待登录成功...
+2025-08-03 18:01:01 | INFO     | modules.login:_wait_for_login_success:283 - 登录成功！
+2025-08-03 18:01:01 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Java开发
+2025-08-03 18:01:01 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 18:02:13 | INFO     | modules.candidate:_parse_candidate_list:289 - 找到 20 个职位卡片
+2025-08-03 18:02:13 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 1 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 18:02:13 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 2 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 18:02:13 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 3 个职位: 中高级Java开发专员
+2025-08-03 18:02:13 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 4 个职位: Java开发（LLM项目/外企机会）
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 5 个职位: Java/c/c++/python/js软件开发工程师
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 5/20 个职位，成功 5 个
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 6 个职位: Java开发（15薪）
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 7 个职位: 华为生态 | 软件开发工程师（Java/Python/C++/Go/JS）
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 8 个职位: Java后端开发工程师
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 9 个职位: 大厂Java开发工程师-电商/餐饮点单系统
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 10 个职位: Java开发
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 10/20 个职位，成功 10 个
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 11 个职位: Java开发工程师（大厂项目 反馈快）
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 12 个职位: Java开发工程师
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 13 个职位: Java开发工程师
+2025-08-03 18:02:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 14 个职位: java软件开发工程师
+2025-08-03 18:02:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 15 个职位: Java开发工程师（实习）
+2025-08-03 18:02:15 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 15/20 个职位，成功 15 个
+2025-08-03 18:02:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 16 个职位: Java开发（需要有语音通讯经验）
+2025-08-03 18:02:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 17 个职位: Java开发工程师
+2025-08-03 18:02:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 18 个职位: java软件开发工程师
+2025-08-03 18:02:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 19 个职位: 初级java开发助理
+2025-08-03 18:02:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 20 个职位: java软件开发工程师
+2025-08-03 18:02:15 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 20/20 个职位，成功 20 个
+2025-08-03 18:02:15 | INFO     | modules.candidate:_parse_candidate_list:341 - 解析完成！总共处理 20 个职位卡片，成功解析 20 个职位信息
+2025-08-03 18:02:15 | INFO     | modules.candidate:search_candidates:89 - 第 1 页找到 20 个候选人
+2025-08-03 18:02:16 | INFO     | modules.candidate:search_candidates:94 - 搜索完成，共找到 20 个候选人
+2025-08-03 18:02:16 | INFO     | modules.candidate:save_candidates_to_file:659 - 候选人信息已保存到 test_candidates.json
+2025-08-03 18:02:19 | INFO     | modules.login:close:354 - 浏览器已关闭
+2025-08-03 18:09:09 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 18:09:20 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 18:09:20 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 18:09:20 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 18:09:51 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 18:10:00 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 18:10:01 | INFO     | modules.login:login_with_sms:119 - 已勾选用户服务协议
+2025-08-03 18:10:02 | INFO     | modules.login:login_with_sms:141 - 已点击获取验证码按钮
+2025-08-03 18:10:04 | INFO     | modules.login:login_with_sms:148 - 请查看手机短信并输入验证码...
+2025-08-03 18:10:04 | INFO     | modules.login:_wait_for_sms_input:160 - 等待验证码输入...
+2025-08-03 18:11:04 | INFO     | modules.login:_wait_for_sms_input:199 - 检测到验证码已输入，尝试登录...
+2025-08-03 18:11:06 | INFO     | modules.login:_wait_for_login_success:274 - 等待登录成功...
+2025-08-03 18:11:26 | INFO     | modules.login:_wait_for_login_success:283 - 登录成功！
+2025-08-03 18:11:26 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Java开发
+2025-08-03 18:11:26 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 18:12:25 | INFO     | modules.candidate:_parse_candidate_list:289 - 找到 20 个职位卡片
+2025-08-03 18:12:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 1 个职位: java软件研发工程师
+2025-08-03 18:12:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 2 个职位: 初级java开发工程师
+2025-08-03 18:12:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 3 个职位: Java开发上海
+2025-08-03 18:12:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 4 个职位: java开发工程师
+2025-08-03 18:12:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 5 个职位: Java开发
+2025-08-03 18:12:25 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 5/20 个职位，成功 5 个
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 6 个职位: JAVA开发
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 7 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 8 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 9 个职位: JAVA开发工程师 (MJ002539)
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 10 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 10/20 个职位，成功 10 个
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 11 个职位: Java后端开发工程师（医疗行业背景）
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 12 个职位: JAVA开发中级工程师（急） (MJ002584)
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 13 个职位: java软件开发工程师
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 14 个职位: Java开发（急招）
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 15 个职位: JAVA开发工程师 (MJ002539)
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 15/20 个职位，成功 15 个
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 16 个职位: java软件开发工程师
+2025-08-03 18:12:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 17 个职位: 华为生态 | 软件开发工程师（Java/Python/C++/Go/JS）
+2025-08-03 18:12:27 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 18 个职位: 初级java开发工程师
+2025-08-03 18:12:27 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 19 个职位: Java开发工程师
+2025-08-03 18:12:27 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 20 个职位: java软件开发工程师
+2025-08-03 18:12:27 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 20/20 个职位，成功 20 个
+2025-08-03 18:12:27 | INFO     | modules.candidate:_parse_candidate_list:341 - 解析完成！总共处理 20 个职位卡片，成功解析 20 个职位信息
+2025-08-03 18:12:27 | INFO     | modules.candidate:search_candidates:89 - 第 1 页找到 20 个候选人
+2025-08-03 18:12:28 | INFO     | modules.candidate:search_candidates:94 - 搜索完成，共找到 20 个候选人
+2025-08-03 18:12:28 | INFO     | zhilian_bot:get_candidate_details:188 - 获取 5 个候选人的详细信息...
+2025-08-03 18:12:28 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CC637432730J40814757308.htm?refcode=4019&srccode=401901&preactionid=5a8c75b7-9236-4a9a-91ea-bc76081edce6
+2025-08-03 18:13:11 | ERROR    | modules.candidate:get_candidate_detail:507 - 获取候选人详细信息失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xc6ba83+63395]
+	GetHandleVerifier [0x0xc6bac4+63460]
+	(No symbol) [0x0xab2113]
+	(No symbol) [0x0xafa85e]
+	(No symbol) [0x0xafabfb]
+	(No symbol) [0x0xb42f92]
+	(No symbol) [0x0xb1f3f4]
+	(No symbol) [0x0xb407ba]
+	(No symbol) [0x0xb1f1a6]
+	(No symbol) [0x0xaee7b2]
+	(No symbol) [0x0xaef654]
+	GetHandleVerifier [0x0xee8883+2672035]
+	GetHandleVerifier [0x0xee3cba+2652634]
+	GetHandleVerifier [0x0xc92bca+223466]
+	GetHandleVerifier [0x0xc82cb8+158168]
+	GetHandleVerifier [0x0xc8978d+185517]
+	GetHandleVerifier [0x0xc73b78+96408]
+	GetHandleVerifier [0x0xc73d02+96802]
+	GetHandleVerifier [0x0xc5e90a+9770]
+	BaseThreadInitThunk [0x0x756afa29+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b5e+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b2e+238]
+
+2025-08-03 18:13:12 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CC138117190J40798093005.htm?refcode=4019&srccode=401901&preactionid=5a8c75b7-9236-4a9a-91ea-bc76081edce6
+2025-08-03 18:13:51 | ERROR    | modules.candidate:get_candidate_detail:507 - 获取候选人详细信息失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xc6ba83+63395]
+	GetHandleVerifier [0x0xc6bac4+63460]
+	(No symbol) [0x0xab2113]
+	(No symbol) [0x0xafa85e]
+	(No symbol) [0x0xafabfb]
+	(No symbol) [0x0xb42f92]
+	(No symbol) [0x0xb1f3f4]
+	(No symbol) [0x0xb407ba]
+	(No symbol) [0x0xb1f1a6]
+	(No symbol) [0x0xaee7b2]
+	(No symbol) [0x0xaef654]
+	GetHandleVerifier [0x0xee8883+2672035]
+	GetHandleVerifier [0x0xee3cba+2652634]
+	GetHandleVerifier [0x0xc92bca+223466]
+	GetHandleVerifier [0x0xc82cb8+158168]
+	GetHandleVerifier [0x0xc8978d+185517]
+	GetHandleVerifier [0x0xc73b78+96408]
+	GetHandleVerifier [0x0xc73d02+96802]
+	GetHandleVerifier [0x0xc5e90a+9770]
+	BaseThreadInitThunk [0x0x756afa29+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b5e+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b2e+238]
+
+2025-08-03 18:13:52 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CC427775130J40842478815.htm?refcode=4019&srccode=401901&preactionid=5a8c75b7-9236-4a9a-91ea-bc76081edce6
+2025-08-03 18:14:33 | ERROR    | modules.candidate:get_candidate_detail:507 - 获取候选人详细信息失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xc6ba83+63395]
+	GetHandleVerifier [0x0xc6bac4+63460]
+	(No symbol) [0x0xab2113]
+	(No symbol) [0x0xafa85e]
+	(No symbol) [0x0xafabfb]
+	(No symbol) [0x0xb42f92]
+	(No symbol) [0x0xb1f3f4]
+	(No symbol) [0x0xb407ba]
+	(No symbol) [0x0xb1f1a6]
+	(No symbol) [0x0xaee7b2]
+	(No symbol) [0x0xaef654]
+	GetHandleVerifier [0x0xee8883+2672035]
+	GetHandleVerifier [0x0xee3cba+2652634]
+	GetHandleVerifier [0x0xc92bca+223466]
+	GetHandleVerifier [0x0xc82cb8+158168]
+	GetHandleVerifier [0x0xc8978d+185517]
+	GetHandleVerifier [0x0xc73b78+96408]
+	GetHandleVerifier [0x0xc73d02+96802]
+	GetHandleVerifier [0x0xc5e90a+9770]
+	BaseThreadInitThunk [0x0x756afa29+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b5e+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b2e+238]
+
+2025-08-03 18:14:34 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CCL1480117890J40776450805.htm?refcode=4019&srccode=401901&preactionid=5a8c75b7-9236-4a9a-91ea-bc76081edce6
+2025-08-03 18:15:13 | ERROR    | modules.candidate:get_candidate_detail:507 - 获取候选人详细信息失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xc6ba83+63395]
+	GetHandleVerifier [0x0xc6bac4+63460]
+	(No symbol) [0x0xab2113]
+	(No symbol) [0x0xafa85e]
+	(No symbol) [0x0xafabfb]
+	(No symbol) [0x0xb42f92]
+	(No symbol) [0x0xb1f3f4]
+	(No symbol) [0x0xb407ba]
+	(No symbol) [0x0xb1f1a6]
+	(No symbol) [0x0xaee7b2]
+	(No symbol) [0x0xaef654]
+	GetHandleVerifier [0x0xee8883+2672035]
+	GetHandleVerifier [0x0xee3cba+2652634]
+	GetHandleVerifier [0x0xc92bca+223466]
+	GetHandleVerifier [0x0xc82cb8+158168]
+	GetHandleVerifier [0x0xc8978d+185517]
+	GetHandleVerifier [0x0xc73b78+96408]
+	GetHandleVerifier [0x0xc73d02+96802]
+	GetHandleVerifier [0x0xc5e90a+9770]
+	BaseThreadInitThunk [0x0x756afa29+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b5e+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b2e+238]
+
+2025-08-03 18:15:15 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CC138117190J40798940705.htm?refcode=4019&srccode=401901&preactionid=5a8c75b7-9236-4a9a-91ea-bc76081edce6
+2025-08-03 18:15:59 | ERROR    | modules.candidate:get_candidate_detail:507 - 获取候选人详细信息失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xc6ba83+63395]
+	GetHandleVerifier [0x0xc6bac4+63460]
+	(No symbol) [0x0xab2113]
+	(No symbol) [0x0xafa85e]
+	(No symbol) [0x0xafabfb]
+	(No symbol) [0x0xb42f92]
+	(No symbol) [0x0xb1f3f4]
+	(No symbol) [0x0xb407ba]
+	(No symbol) [0x0xb1f1a6]
+	(No symbol) [0x0xaee7b2]
+	(No symbol) [0x0xaef654]
+	GetHandleVerifier [0x0xee8883+2672035]
+	GetHandleVerifier [0x0xee3cba+2652634]
+	GetHandleVerifier [0x0xc92bca+223466]
+	GetHandleVerifier [0x0xc82cb8+158168]
+	GetHandleVerifier [0x0xc8978d+185517]
+	GetHandleVerifier [0x0xc73b78+96408]
+	GetHandleVerifier [0x0xc73d02+96802]
+	GetHandleVerifier [0x0xc5e90a+9770]
+	BaseThreadInitThunk [0x0x756afa29+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b5e+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b2e+238]
+
+2025-08-03 18:16:00 | INFO     | zhilian_bot:get_candidate_details:209 - 成功获取 0 个候选人的详细信息
+2025-08-03 18:16:00 | INFO     | modules.candidate:save_candidates_to_file:659 - 候选人信息已保存到 detailed_candidates.json
+2025-08-03 18:16:00 | INFO     | __main__:example_get_candidate_details:121 - 获取了 0 个候选人的详细信息
+2025-08-03 18:16:00 | INFO     | zhilian_bot:stop:343 - 正在停止机器人...
+2025-08-03 18:16:00 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 18:16:00 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 18:16:06 | INFO     | modules.login:close:354 - 浏览器已关闭
+2025-08-03 18:16:06 | INFO     | zhilian_bot:stop:359 - 机器人已停止
+2025-08-03 18:20:16 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 18:20:43 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 18:20:52 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 18:20:52 | INFO     | modules.login:login_with_sms:119 - 已勾选用户服务协议
+2025-08-03 18:20:54 | ERROR    | modules.login:login_with_sms:144 - 点击获取验证码按钮失败: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.184); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0xc6ba83+63395]
+	GetHandleVerifier [0x0xc6bac4+63460]
+	(No symbol) [0x0xab2113]
+	(No symbol) [0x0xab88e9]
+	(No symbol) [0x0xabac7a]
+	(No symbol) [0x0xabacf7]
+	(No symbol) [0x0xafc52a]
+	(No symbol) [0x0xafb6f0]
+	(No symbol) [0x0xaf0515]
+	(No symbol) [0x0xb1f3ac]
+	(No symbol) [0x0xaeffa4]
+	(No symbol) [0x0xb1f624]
+	(No symbol) [0x0xb407ba]
+	(No symbol) [0x0xb1f1a6]
+	(No symbol) [0x0xaee7b2]
+	(No symbol) [0x0xaef654]
+	GetHandleVerifier [0x0xee8883+2672035]
+	GetHandleVerifier [0x0xee3cba+2652634]
+	GetHandleVerifier [0x0xc92bca+223466]
+	GetHandleVerifier [0x0xc82cb8+158168]
+	GetHandleVerifier [0x0xc8978d+185517]
+	GetHandleVerifier [0x0xc73b78+96408]
+	GetHandleVerifier [0x0xc73d02+96802]
+	GetHandleVerifier [0x0xc5e90a+9770]
+	BaseThreadInitThunk [0x0x756afa29+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b5e+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77597b2e+238]
+
+2025-08-03 18:20:57 | INFO     | modules.login:close:354 - 浏览器已关闭
+2025-08-03 18:27:42 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 18:29:07 | INFO     | modules.login:close:410 - 浏览器已关闭
+2025-08-03 18:31:58 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 18:33:09 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 18:33:17 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 18:33:19 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 18:34:42 | ERROR    | modules.login:login_with_sms:196 - 未找到获取验证码按钮
+2025-08-03 18:34:45 | INFO     | modules.login:close:410 - 浏览器已关闭
+2025-08-03 18:53:07 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 18:53:44 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 18:53:54 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 18:53:56 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 18:55:54 | WARNING  | modules.login:login_with_sms:197 - 未找到获取验证码按钮，可能已经发送过验证码
+2025-08-03 18:56:04 | ERROR    | modules.login:login_with_sms:208 - 未找到验证码相关元素
+2025-08-03 18:56:07 | INFO     | modules.login:close:508 - 浏览器已关闭
+2025-08-03 18:57:09 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 18:57:39 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 18:57:58 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 18:58:00 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 18:59:22 | WARNING  | modules.login:login_with_sms:197 - 未找到获取验证码按钮，可能已经发送过验证码
+2025-08-03 18:59:32 | ERROR    | modules.login:login_with_sms:208 - 未找到验证码相关元素
+2025-08-03 18:59:35 | INFO     | modules.login:close:508 - 浏览器已关闭
+2025-08-03 19:05:44 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 19:06:32 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 19:07:06 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 19:07:08 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 19:08:30 | WARNING  | modules.login:login_with_sms:197 - 未找到获取验证码按钮，可能已经发送过验证码
+2025-08-03 19:09:41 | INFO     | modules.login:login_with_sms:220 - 发现验证码输入框（选择器: //input[@type='text'][contains(@id, 'code')]），继续等待用户输入...
+2025-08-03 19:09:41 | INFO     | modules.login:login_with_sms:263 - 请查看手机短信并输入验证码...
+2025-08-03 19:09:41 | INFO     | modules.login:_wait_for_sms_input:275 - 等待验证码输入...
+2025-08-03 19:09:41 | INFO     | modules.login:_wait_for_sms_input:276 - 程序将自动检测验证码输入并尝试登录...
+2025-08-03 19:09:41 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 299秒
+2025-08-03 19:10:11 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 269秒
+2025-08-03 19:10:41 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 239秒
+2025-08-03 19:11:24 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 19:18:42 | INFO     | modules.login:close:555 - 浏览器已关闭
+2025-08-03 19:21:54 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 19:22:22 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 19:22:30 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 19:22:33 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 19:23:56 | WARNING  | modules.login:login_with_sms:197 - 未找到获取验证码按钮，可能已经发送过验证码
+2025-08-03 19:25:06 | INFO     | modules.login:login_with_sms:220 - 发现验证码输入框（选择器: //input[@type='text'][contains(@id, 'code')]），继续等待用户输入...
+2025-08-03 19:25:06 | INFO     | modules.login:login_with_sms:263 - 请查看手机短信并输入验证码...
+2025-08-03 19:25:06 | INFO     | modules.login:_wait_for_sms_input:275 - 等待验证码输入...
+2025-08-03 19:25:06 | INFO     | modules.login:_wait_for_sms_input:276 - 程序将自动检测验证码输入并尝试登录...
+2025-08-03 19:25:06 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 299秒
+2025-08-03 19:25:36 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 269秒
+2025-08-03 19:26:06 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 239秒
+2025-08-03 19:26:36 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 209秒
+2025-08-03 19:27:17 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 19:27:27 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 19:27:27 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 19:27:27 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 19:27:58 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 19:28:14 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 19:28:17 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 19:29:39 | WARNING  | modules.login:login_with_sms:197 - 未找到获取验证码按钮，可能已经发送过验证码
+2025-08-03 19:29:47 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 19:29:47 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 19:29:47 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 19:29:47 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 19:29:49 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 19:29:49 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 19:29:49 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 19:29:49 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 19:30:08 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 19:38:31 | INFO     | modules.login:close:555 - 浏览器已关闭
+2025-08-03 19:39:22 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 19:46:20 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Java开发
+2025-08-03 19:46:20 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 19:47:20 | INFO     | modules.candidate:_parse_candidate_list:289 - 找到 20 个职位卡片
+2025-08-03 19:47:20 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 1 个职位: Java开发（LLM项目/外企机会）
+2025-08-03 19:47:20 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 2 个职位: 中高级Java开发专员
+2025-08-03 19:47:20 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 3 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 19:47:20 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 4 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 19:47:20 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 5 个职位: Java开发（15薪）
+2025-08-03 19:47:20 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 5/20 个职位，成功 5 个
+2025-08-03 19:47:20 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 6 个职位: java/c/c++/python/js软件开发工程师
+2025-08-03 19:47:21 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 7 个职位: 华为生态 | 软件开发工程师（Java/Python/C++/Go/JS）
+2025-08-03 19:47:21 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 8 个职位: 大厂Java开发工程师-电商/餐饮点单系统
+2025-08-03 19:47:21 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 9 个职位: Java/c/c++/python/js软件开发工程师
+2025-08-03 19:47:21 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 10 个职位: Java开发
+2025-08-03 19:47:21 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 10/20 个职位，成功 10 个
+2025-08-03 19:47:21 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 11 个职位: Java开发工程师
+2025-08-03 19:47:21 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 12 个职位: java/c/c++/python/js软件开发工程师
+2025-08-03 19:47:21 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 13 个职位: Java开发工程师
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 14 个职位: Java开发工程师（实习）
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 15 个职位: java软件开发工程师
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 15/20 个职位，成功 15 个
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 16 个职位: Java开发（需要有语音通讯经验）
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 17 个职位: java软件开发工程师
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 18 个职位: java软件开发工程师
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 19 个职位: java开发助理
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 20 个职位: java软件开发工程师
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 20/20 个职位，成功 20 个
+2025-08-03 19:47:22 | INFO     | modules.candidate:_parse_candidate_list:341 - 解析完成！总共处理 20 个职位卡片，成功解析 20 个职位信息
+2025-08-03 19:47:22 | INFO     | modules.candidate:search_candidates:89 - 第 1 页找到 20 个候选人
+2025-08-03 19:47:23 | INFO     | modules.candidate:search_candidates:94 - 搜索完成，共找到 20 个候选人
+2025-08-03 19:47:23 | INFO     | modules.candidate:save_candidates_to_file:734 - 候选人信息已保存到 robust_search_results.json
+2025-08-03 19:47:27 | INFO     | modules.login:close:555 - 浏览器已关闭
+2025-08-03 19:48:02 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 19:57:41 | INFO     | modules.login:close:555 - 浏览器已关闭
+2025-08-03 20:00:43 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 20:06:31 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Java开发
+2025-08-03 20:06:31 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 20:08:13 | INFO     | modules.candidate:_parse_candidate_list:289 - 找到 20 个职位卡片
+2025-08-03 20:08:13 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 1 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 20:08:13 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 2 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 20:08:13 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 3 个职位: 中高级Java开发专员
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 4 个职位: Java开发（LLM项目/外企机会）
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 5 个职位: Java后端开发工程师
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 5/20 个职位，成功 5 个
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 6 个职位: Java开发（15薪）
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 7 个职位: 华为生态 | 软件开发工程师（Java/Python/C++/Go/JS）
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 8 个职位: java软件开发工程师
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 9 个职位: 大厂Java开发工程师-电商/餐饮点单系统
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 10 个职位: Java开发
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 10/20 个职位，成功 10 个
+2025-08-03 20:08:14 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 11 个职位: java/c/c++/python/js软件开发工程师
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 12 个职位: Java开发工程师
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 13 个职位: Java开发工程师
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 14 个职位: java软件开发工程师
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 15 个职位: Java开发工程师（实习）
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 15/20 个职位，成功 15 个
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 16 个职位: Java开发（需要有语音通讯经验）
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 17 个职位: java/c/c++/python/js软件开发工程师
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 18 个职位: java软件开发工程师
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 19 个职位: java开发工程师
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 20 个职位: Java开发工程师（大厂项目 反馈快）
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 20/20 个职位，成功 20 个
+2025-08-03 20:08:15 | INFO     | modules.candidate:_parse_candidate_list:341 - 解析完成！总共处理 20 个职位卡片，成功解析 20 个职位信息
+2025-08-03 20:08:15 | INFO     | modules.candidate:search_candidates:89 - 第 1 页找到 20 个候选人
+2025-08-03 20:08:16 | INFO     | modules.candidate:search_candidates:94 - 搜索完成，共找到 20 个候选人
+2025-08-03 20:08:16 | INFO     | modules.candidate:save_candidates_to_file:734 - 候选人信息已保存到 search_results.json
+2025-08-03 20:08:19 | INFO     | modules.login:close:555 - 浏览器已关闭
+2025-08-03 20:08:41 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 20:08:52 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 20:08:52 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 20:08:52 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 20:09:44 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 20:10:17 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 20:10:19 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 20:11:41 | WARNING  | modules.login:login_with_sms:197 - 未找到获取验证码按钮，可能已经发送过验证码
+2025-08-03 20:12:51 | INFO     | modules.login:login_with_sms:220 - 发现验证码输入框（选择器: //input[@type='text'][contains(@id, 'code')]），继续等待用户输入...
+2025-08-03 20:12:51 | INFO     | modules.login:login_with_sms:263 - 请查看手机短信并输入验证码...
+2025-08-03 20:12:51 | INFO     | modules.login:_wait_for_sms_input:275 - 等待验证码输入...
+2025-08-03 20:12:51 | INFO     | modules.login:_wait_for_sms_input:276 - 程序将自动检测验证码输入并尝试登录...
+2025-08-03 20:12:51 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 299秒
+2025-08-03 20:13:21 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 269秒
+2025-08-03 20:13:52 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 239秒
+2025-08-03 20:14:22 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 209秒
+2025-08-03 20:14:52 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 179秒
+2025-08-03 20:15:23 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 148秒
+2025-08-03 20:15:53 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 118秒
+2025-08-03 20:16:23 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 88秒
+2025-08-03 20:16:53 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 58秒
+2025-08-03 20:17:23 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 28秒
+2025-08-03 20:17:52 | WARNING  | modules.login:_wait_for_sms_input:427 - 自动检测验证码输入超时，请手动完成登录
+2025-08-03 20:20:25 | INFO     | modules.login:_wait_for_login_success:475 - 等待登录成功...
+2025-08-03 20:20:28 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 20:20:28 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 20:20:29 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 20:20:29 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 20:20:31 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 20:20:31 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 20:20:31 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 20:20:31 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 20:21:43 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 20:21:59 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 20:21:59 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 20:21:59 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 20:22:51 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 20:23:01 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 20:23:03 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 20:24:26 | WARNING  | modules.login:login_with_sms:197 - 未找到获取验证码按钮，可能已经发送过验证码
+2025-08-03 20:25:36 | INFO     | modules.login:login_with_sms:220 - 发现验证码输入框（选择器: //input[@type='text'][contains(@id, 'code')]），继续等待用户输入...
+2025-08-03 20:25:36 | INFO     | modules.login:login_with_sms:263 - 请查看手机短信并输入验证码...
+2025-08-03 20:25:36 | INFO     | modules.login:_wait_for_sms_input:275 - 等待验证码输入...
+2025-08-03 20:25:36 | INFO     | modules.login:_wait_for_sms_input:276 - 程序将自动检测验证码输入并尝试登录...
+2025-08-03 20:25:36 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 119秒
+2025-08-03 20:26:06 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 89秒
+2025-08-03 20:26:36 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 59秒
+2025-08-03 20:27:23 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 20:28:07 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 20:28:27 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 20:28:29 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 20:29:51 | WARNING  | modules.login:login_with_sms:197 - 未找到获取验证码按钮，可能已经发送过验证码
+2025-08-03 20:31:02 | INFO     | modules.login:login_with_sms:220 - 发现验证码输入框（选择器: //input[@type='text'][contains(@id, 'code')]），继续等待用户输入...
+2025-08-03 20:31:02 | INFO     | modules.login:login_with_sms:263 - 请查看手机短信并输入验证码...
+2025-08-03 20:31:02 | INFO     | modules.login:_wait_for_sms_input:275 - 等待验证码输入...
+2025-08-03 20:31:02 | INFO     | modules.login:_wait_for_sms_input:276 - 程序将自动检测验证码输入并尝试登录...
+2025-08-03 20:31:02 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 119秒
+2025-08-03 20:31:32 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 89秒
+2025-08-03 20:32:02 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 59秒
+2025-08-03 20:32:32 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 29秒
+2025-08-03 20:33:02 | WARNING  | modules.login:_wait_for_sms_input:453 - 自动检测验证码输入超时，请手动完成登录
+2025-08-03 20:33:28 | INFO     | modules.login:_wait_for_login_success:501 - 等待登录成功...
+2025-08-03 20:33:39 | ERROR    | modules.login:_wait_for_login_success:524 - 登录超时
+2025-08-03 20:33:42 | INFO     | modules.login:close:581 - 浏览器已关闭
+2025-08-03 20:37:30 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 20:38:15 | INFO     | modules.login:login_with_sms:72 - 开始手机验证码登录...
+2025-08-03 20:38:32 | INFO     | modules.login:login_with_sms:85 - 已输入手机号: 16621536193
+2025-08-03 20:38:34 | INFO     | modules.login:login_with_sms:123 - 已勾选用户服务协议（JavaScript方式）
+2025-08-03 20:39:56 | WARNING  | modules.login:login_with_sms:197 - 未找到获取验证码按钮，可能已经发送过验证码
+2025-08-03 20:41:07 | INFO     | modules.login:login_with_sms:220 - 发现验证码输入框（选择器: //input[@type='text'][contains(@id, 'code')]），继续等待用户输入...
+2025-08-03 20:41:07 | INFO     | modules.login:login_with_sms:263 - 请查看手机短信并输入验证码...
+2025-08-03 20:41:07 | INFO     | modules.login:_wait_for_sms_input:275 - 等待验证码输入...
+2025-08-03 20:41:07 | INFO     | modules.login:_wait_for_sms_input:276 - 程序将自动检测验证码输入并尝试登录...
+2025-08-03 20:41:07 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 119秒
+2025-08-03 20:41:37 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 89秒
+2025-08-03 20:42:07 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 59秒
+2025-08-03 20:42:37 | INFO     | modules.login:_wait_for_sms_input:290 - 等待验证码输入中... 剩余时间: 29秒
+2025-08-03 20:43:07 | WARNING  | modules.login:_wait_for_sms_input:471 - 自动检测验证码输入超时，请手动完成登录
+2025-08-03 20:54:38 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 20:54:47 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 20:54:47 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 20:54:47 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 20:54:47 | INFO     | robust_usage:example_robust_search_and_greet:22 - 🛡️ 使用稳定登录逻辑...
+2025-08-03 20:55:07 | INFO     | modules.login:login_with_sms_robust:621 - 开始稳定短信验证码登录...
+2025-08-03 20:55:11 | INFO     | modules.login:login_with_sms_robust:626 - 📄 当前页面: 智联招聘用户登录_智联官方网站登录入口 - 智联招聘
+2025-08-03 20:55:21 | ERROR    | modules.login:login_with_sms_robust:761 - 稳定登录失败: 'Settings' object has no attribute 'PHONE_NUMBER'
+2025-08-03 20:55:21 | ERROR    | robust_usage:example_robust_search_and_greet:24 - 登录失败
+2025-08-03 20:55:21 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 20:55:21 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 20:55:21 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 20:55:24 | INFO     | modules.login:close:791 - 浏览器已关闭
+2025-08-03 20:55:24 | INFO     | zhilian_bot:stop:385 - 机器人已停止
+2025-08-03 21:01:12 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 21:01:12 | INFO     | modules.login:login_with_sms_robust:621 - 开始稳定短信验证码登录...
+2025-08-03 21:01:27 | INFO     | modules.login:login_with_sms_robust:626 - 📄 当前页面: 智联招聘用户登录_智联官方网站登录入口 - 智联招聘
+2025-08-03 21:01:38 | INFO     | modules.login:login_with_sms_robust:645 - ✅ 已输入手机号: 166****6193
+2025-08-03 21:01:40 | INFO     | modules.login:login_with_sms_robust:658 - ✅ 已勾选协议
+2025-08-03 21:01:42 | INFO     | modules.login:login_with_sms_robust:674 - ✅ 已点击获取验证码
+2025-08-03 21:01:45 | INFO     | modules.login:login_with_sms_robust:681 - 📱 请输入验证码，程序将自动检测...
+2025-08-03 21:01:45 | INFO     | modules.login:login_with_sms_robust:694 - ⏳ 等待验证码输入... 剩余: 119秒
+2025-08-03 21:02:46 | INFO     | modules.login:login_with_sms_robust:713 - ✅ 检测到验证码: 6位
+2025-08-03 21:03:48 | INFO     | modules.login:login_with_sms_robust:721 - 🎯 提交登录...
+2025-08-03 21:03:48 | INFO     | modules.login:login_with_sms_robust:733 - ✅ 已点击登录按钮
+2025-08-03 21:03:57 | INFO     | modules.login:login_with_sms_robust:744 - 📄 登录后URL: https://i.zhaopin.com/
+2025-08-03 21:03:57 | INFO     | modules.login:login_with_sms_robust:747 - 🎉 登录成功！
+2025-08-03 21:04:01 | INFO     | modules.login:close:796 - 浏览器已关闭
+2025-08-03 21:07:31 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 21:07:40 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 21:07:40 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 21:07:40 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 21:07:40 | INFO     | robust_usage:example_robust_search_and_greet:22 - 🛡️ 使用稳定登录逻辑...
+2025-08-03 21:07:55 | INFO     | modules.login:login_with_sms_robust:621 - 开始稳定短信验证码登录...
+2025-08-03 21:07:59 | INFO     | modules.login:login_with_sms_robust:626 - 📄 当前页面: 智联招聘用户登录_智联官方网站登录入口 - 智联招聘
+2025-08-03 21:08:09 | INFO     | modules.login:login_with_sms_robust:645 - ✅ 已输入手机号: 166****6193
+2025-08-03 21:08:11 | INFO     | modules.login:login_with_sms_robust:658 - ✅ 已勾选协议
+2025-08-03 21:08:33 | WARNING  | modules.login:login_with_sms_robust:676 - ⚠️ 未找到获取验证码按钮，继续...
+2025-08-03 21:08:36 | INFO     | modules.login:login_with_sms_robust:681 - 📱 请输入验证码，程序将自动检测...
+2025-08-03 21:08:36 | INFO     | modules.login:login_with_sms_robust:694 - ⏳ 等待验证码输入... 剩余: 119秒
+2025-08-03 21:09:37 | INFO     | modules.login:login_with_sms_robust:713 - ✅ 检测到验证码: 6位
+2025-08-03 21:10:39 | INFO     | modules.login:login_with_sms_robust:721 - 🎯 提交登录...
+2025-08-03 21:10:39 | INFO     | modules.login:login_with_sms_robust:733 - ✅ 已点击登录按钮
+2025-08-03 21:10:44 | INFO     | modules.login:login_with_sms_robust:744 - 📄 登录后URL: https://i.zhaopin.com/
+2025-08-03 21:10:44 | INFO     | modules.login:login_with_sms_robust:747 - 🎉 登录成功！
+2025-08-03 21:10:44 | INFO     | zhilian_bot:search_and_greet_candidates:143 - 开始搜索并打招呼候选人...
+2025-08-03 21:10:44 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Python开发工程师
+2025-08-03 21:10:44 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 21:11:21 | INFO     | modules.candidate:_parse_candidate_list:289 - 找到 20 个职位卡片
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 1 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 2 个职位: 后端java工程师
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 3 个职位: JAVA软件工程师
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 4 个职位: Java开发（LLM项目/外企机会）
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 5 个职位: 中高级Java开发专员
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 5/20 个职位，成功 5 个
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 6 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 7 个职位: 华为生态 | 软件开发工程师（Java/Python/C++/Go/JS）
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 8 个职位: Java开发（15薪）
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 9 个职位: java/c/c++/python/js开发工程师
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 10 个职位: Java开发
+2025-08-03 21:11:22 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 10/20 个职位，成功 10 个
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 11 个职位: JAVA工程师
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 12 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 13 个职位: java
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 14 个职位: 大厂Java开发工程师-电商/餐饮点单系统
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 15 个职位: Java/C/C++/Python/前端/测试（接受无经验）
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 15/20 个职位，成功 15 个
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 16 个职位: 中高级java工程师
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 17 个职位: JAVA工程师
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 18 个职位: Java开发工程师（大厂项目 反馈快）
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 19 个职位: Java开发工程师
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 20 个职位: Java开发工程师
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 20/20 个职位，成功 20 个
+2025-08-03 21:11:23 | INFO     | modules.candidate:_parse_candidate_list:341 - 解析完成！总共处理 20 个职位卡片，成功解析 20 个职位信息
+2025-08-03 21:11:23 | INFO     | modules.candidate:search_candidates:89 - 第 1 页找到 20 个候选人
+2025-08-03 21:11:24 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 2 页...
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:289 - 找到 20 个职位卡片
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 1 个职位: java/c/c++/python/js软件开发工程师
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 2 个职位: JAVA软件工程师
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 3 个职位: Java开发（需要有语音通讯经验）
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 4 个职位: java软件开发工程师
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 5 个职位: Java开发工程师（实习）
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 5/20 个职位，成功 5 个
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 6 个职位: 中高级java工程师-北京ld
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 7 个职位: java软件开发工程师
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 8 个职位: java软件开发工程师
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 9 个职位: java实习生-北京
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 10 个职位: Java/C/C++/Python/前端/测试（接受无经验）
+2025-08-03 21:12:00 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 10/20 个职位，成功 10 个
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 11 个职位: java软件开发工程师
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 12 个职位: java开发工程师
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 13 个职位: java软件开发工程师
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 14 个职位: java软件开发工程师
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 15 个职位: java开发助理
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 15/20 个职位，成功 15 个
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 16 个职位: java开发软件工程师
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 17 个职位: java软件开发工程师
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 18 个职位: Java开发（销售系统）
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 19 个职位: Java/c/c++/python/js软件开发工程师
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 20 个职位: java软件开发工程师
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 20/20 个职位，成功 20 个
+2025-08-03 21:12:01 | INFO     | modules.candidate:_parse_candidate_list:341 - 解析完成！总共处理 20 个职位卡片，成功解析 20 个职位信息
+2025-08-03 21:12:01 | INFO     | modules.candidate:search_candidates:89 - 第 2 页找到 20 个候选人
+2025-08-03 21:12:02 | INFO     | modules.candidate:search_candidates:94 - 搜索完成，共找到 40 个候选人
+2025-08-03 21:12:02 | INFO     | modules.interaction:batch_greeting:280 - 开始批量发送打招呼，候选人数量: 10
+2025-08-03 21:12:02 | INFO     | modules.interaction:send_greeting:55 - 向候选人发送打招呼: http://www.zhaopin.com/jobdetail/CC138117190J40792679905.htm?refcode=4019&srccode=401901&preactionid=998c553b-f971-4c92-b73f-15d4f3da75ea
+2025-08-03 21:12:54 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 21:12:54 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 21:12:54 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 21:12:54 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 21:12:56 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 21:12:56 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 21:12:56 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 21:12:56 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 21:13:16 | INFO     | modules.login:close:796 - 浏览器已关闭
+2025-08-03 21:13:16 | INFO     | zhilian_bot:stop:385 - 机器人已停止
+2025-08-03 21:13:20 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 21:13:20 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 21:13:20 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 21:13:41 | INFO     | modules.login:close:796 - 浏览器已关闭
+2025-08-03 21:13:41 | INFO     | zhilian_bot:stop:385 - 机器人已停止
+2025-08-03 21:13:58 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 21:14:09 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 21:14:09 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 21:14:09 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 21:14:09 | INFO     | robust_usage:example_robust_get_candidate_details:101 - 🛡️ 使用稳定登录逻辑...
+2025-08-03 21:14:26 | INFO     | modules.login:login_with_sms_robust:621 - 开始稳定短信验证码登录...
+2025-08-03 21:14:30 | INFO     | modules.login:login_with_sms_robust:626 - 📄 当前页面: 智联招聘用户登录_智联官方网站登录入口 - 智联招聘
+2025-08-03 21:14:40 | INFO     | modules.login:login_with_sms_robust:645 - ✅ 已输入手机号: 166****6193
+2025-08-03 21:14:42 | INFO     | modules.login:login_with_sms_robust:658 - ✅ 已勾选协议
+2025-08-03 21:15:04 | WARNING  | modules.login:login_with_sms_robust:676 - ⚠️ 未找到获取验证码按钮，继续...
+2025-08-03 21:15:07 | INFO     | modules.login:login_with_sms_robust:681 - 📱 请输入验证码，程序将自动检测...
+2025-08-03 21:15:07 | INFO     | modules.login:login_with_sms_robust:694 - ⏳ 等待验证码输入... 剩余: 119秒
+2025-08-03 21:16:08 | INFO     | modules.login:login_with_sms_robust:713 - ✅ 检测到验证码: 6位
+2025-08-03 21:17:10 | INFO     | modules.login:login_with_sms_robust:721 - 🎯 提交登录...
+2025-08-03 21:17:10 | INFO     | modules.login:login_with_sms_robust:733 - ✅ 已点击登录按钮
+2025-08-03 21:17:15 | INFO     | modules.login:login_with_sms_robust:744 - 📄 登录后URL: https://i.zhaopin.com/
+2025-08-03 21:17:15 | INFO     | modules.login:login_with_sms_robust:747 - 🎉 登录成功！
+2025-08-03 21:17:15 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Java开发
+2025-08-03 21:17:15 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 21:17:52 | INFO     | modules.candidate:_parse_candidate_list:289 - 找到 20 个职位卡片
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 1 个职位: java软件研发工程师
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 2 个职位: 初级java开发工程师
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 3 个职位: Java开发工程师
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 4 个职位: Java开发上海
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 5 个职位: Java开发
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 5/20 个职位，成功 5 个
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 6 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 7 个职位: JAVA开发
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 8 个职位: Java后端开发工程师（医疗行业背景）
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 9 个职位: java开发工程师（鲲鹏fae）
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 10 个职位: JAVA开发工程师 (MJ002539)
+2025-08-03 21:17:53 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 10/20 个职位，成功 10 个
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 11 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 12 个职位: Java开发工程师
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 13 个职位: JAVA开发中级工程师（急） (MJ002584)
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 14 个职位: 华为生态 | 软件开发工程师（Java/Python/C++/Go/JS）
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 15 个职位: JAVA开发工程师
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 15/20 个职位，成功 15 个
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 16 个职位: JAVA开发工程师 (MJ002539)
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 17 个职位: Java开发（急招）
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 18 个职位: JAVA/Js/C/C++/Python/go/web开发工程师 全国岗14薪 全额社保公积金 应届生/考研/考公失利可
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 19 个职位: 初级java开发工程师
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 20 个职位: java开发助理
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 20/20 个职位，成功 20 个
+2025-08-03 21:17:54 | INFO     | modules.candidate:_parse_candidate_list:341 - 解析完成！总共处理 20 个职位卡片，成功解析 20 个职位信息
+2025-08-03 21:17:54 | INFO     | modules.candidate:search_candidates:89 - 第 1 页找到 20 个候选人
+2025-08-03 21:17:55 | INFO     | modules.candidate:search_candidates:94 - 搜索完成，共找到 20 个候选人
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:116 - 搜索到 20 个职位
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 1: java软件研发工程师 - java软件研发工程师 - 1-1.5万
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 2: 初级java开发工程师 - 初级java开发工程师 - 9000-12000元
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 3: Java开发工程师 - Java开发工程师 - 1-1.7万
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 4: Java开发上海 - Java开发上海 - 1.4-1.5万
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 5: Java开发 - Java开发 - 9000-15000元
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 6: java/c/c++/python/js/go软件开发工程师 - java/c/c++/python/js/go软件开发工程师 - 1.4-2.8万
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 7: JAVA开发 - JAVA开发 - 1.1-1.5万
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 8: Java后端开发工程师（医疗行业背景） - Java后端开发工程师（医疗行业背景） - 1-1.5万
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 9: java开发工程师（鲲鹏fae） - java开发工程师（鲲鹏fae） - 1.4-1.8万
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 10: JAVA开发工程师 (MJ002539) - JAVA开发工程师 (MJ002539) - 1.8-3.5万
+2025-08-03 21:17:55 | INFO     | robust_usage:example_robust_get_candidate_details:129 - 准备获取 3 个职位的详细信息...
+2025-08-03 21:17:55 | INFO     | zhilian_bot:get_candidate_details:188 - 获取 3 个候选人的详细信息...
+2025-08-03 21:17:55 | INFO     | zhilian_bot:get_candidate_details:194 - 正在获取第 1/3 个职位详情...
+2025-08-03 21:17:55 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CC637432730J40814757308.htm?refcode=4019&srccode=401901&preactionid=0b5d5875-ed1a-41e6-8f90-f2b75594d27e
+2025-08-03 21:19:42 | INFO     | modules.candidate:get_candidate_detail:572 - 成功获取职位详细信息: 未知
+2025-08-03 21:19:42 | INFO     | zhilian_bot:get_candidate_details:209 - ✓ 第 1 个职位获取成功: 未知
+2025-08-03 21:19:44 | INFO     | zhilian_bot:get_candidate_details:194 - 正在获取第 2/3 个职位详情...
+2025-08-03 21:19:44 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CC138117190J40798093005.htm?refcode=4019&srccode=401901&preactionid=0b5d5875-ed1a-41e6-8f90-f2b75594d27e
+2025-08-03 21:21:32 | INFO     | modules.candidate:get_candidate_detail:572 - 成功获取职位详细信息: 未知
+2025-08-03 21:21:32 | INFO     | zhilian_bot:get_candidate_details:209 - ✓ 第 2 个职位获取成功: 未知
+2025-08-03 21:21:34 | INFO     | zhilian_bot:get_candidate_details:194 - 正在获取第 3/3 个职位详情...
+2025-08-03 21:21:34 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CCL1480117890J40796687205.htm?refcode=4019&srccode=401901&preactionid=0b5d5875-ed1a-41e6-8f90-f2b75594d27e
+2025-08-03 21:23:21 | INFO     | modules.candidate:get_candidate_detail:572 - 成功获取职位详细信息: 未知
+2025-08-03 21:23:21 | INFO     | zhilian_bot:get_candidate_details:209 - ✓ 第 3 个职位获取成功: 未知
+2025-08-03 21:23:23 | INFO     | zhilian_bot:get_candidate_details:235 - 候选人详情获取完成: 成功 3 个，失败 0 个，总计 3 个
+2025-08-03 21:23:23 | INFO     | modules.candidate:save_candidates_to_file:734 - 候选人信息已保存到 robust_detailed_candidates.json
+2025-08-03 21:23:23 | INFO     | robust_usage:example_robust_get_candidate_details:137 - 获取了 3 个候选人的详细信息
+2025-08-03 21:23:23 | INFO     | robust_usage:example_robust_get_candidate_details:141 - 详情 1: 未知 - 状态: 成功
+2025-08-03 21:23:23 | INFO     | robust_usage:example_robust_get_candidate_details:141 - 详情 2: 未知 - 状态: 成功
+2025-08-03 21:23:23 | INFO     | robust_usage:example_robust_get_candidate_details:141 - 详情 3: 未知 - 状态: 成功
+2025-08-03 21:23:23 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 21:23:23 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 21:23:23 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 21:23:27 | INFO     | modules.login:close:796 - 浏览器已关闭
+2025-08-03 21:23:27 | INFO     | zhilian_bot:stop:385 - 机器人已停止
+2025-08-03 21:35:31 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 21:35:39 | INFO     | modules.login:_setup_driver:56 - 浏览器驱动初始化成功
+2025-08-03 21:35:39 | INFO     | modules.message_forwarder:_setup_session:60 - HTTP会话初始化成功
+2025-08-03 21:35:39 | INFO     | zhilian_bot:initialize:58 - 机器人初始化完成
+2025-08-03 21:35:39 | INFO     | robust_usage:example_robust_get_candidate_details:101 - 🛡️ 使用稳定登录逻辑...
+2025-08-03 21:35:54 | INFO     | modules.login:login_with_sms_robust:621 - 开始稳定短信验证码登录...
+2025-08-03 21:35:59 | INFO     | modules.login:login_with_sms_robust:626 - 📄 当前页面: 智联招聘用户登录_智联官方网站登录入口 - 智联招聘
+2025-08-03 21:36:09 | INFO     | modules.login:login_with_sms_robust:645 - ✅ 已输入手机号: 166****6193
+2025-08-03 21:36:11 | INFO     | modules.login:login_with_sms_robust:658 - ✅ 已勾选协议
+2025-08-03 21:36:33 | WARNING  | modules.login:login_with_sms_robust:676 - ⚠️ 未找到获取验证码按钮，继续...
+2025-08-03 21:36:36 | INFO     | modules.login:login_with_sms_robust:681 - 📱 请输入验证码，程序将自动检测...
+2025-08-03 21:36:36 | INFO     | modules.login:login_with_sms_robust:694 - ⏳ 等待验证码输入... 剩余: 119秒
+2025-08-03 21:37:36 | INFO     | modules.login:login_with_sms_robust:713 - ✅ 检测到验证码: 6位
+2025-08-03 21:38:39 | INFO     | modules.login:login_with_sms_robust:721 - 🎯 提交登录...
+2025-08-03 21:38:39 | INFO     | modules.login:login_with_sms_robust:733 - ✅ 已点击登录按钮
+2025-08-03 21:38:44 | INFO     | modules.login:login_with_sms_robust:744 - 📄 登录后URL: https://i.zhaopin.com/
+2025-08-03 21:38:44 | INFO     | modules.login:login_with_sms_robust:747 - 🎉 登录成功！
+2025-08-03 21:38:44 | INFO     | modules.candidate:search_candidates:49 - 开始搜索候选人，关键词: Java开发
+2025-08-03 21:38:44 | INFO     | modules.candidate:search_candidates:64 - 正在搜索第 1 页...
+2025-08-03 21:39:23 | INFO     | modules.candidate:_parse_candidate_list:289 - 找到 20 个职位卡片
+2025-08-03 21:39:24 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 1 个职位: java软件研发工程师
+2025-08-03 21:39:24 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 2 个职位: 初级java开发工程师
+2025-08-03 21:39:24 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 3 个职位: java软件开发工程师
+2025-08-03 21:39:24 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 4 个职位: Java开发上海
+2025-08-03 21:39:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 5 个职位: Java开发
+2025-08-03 21:39:25 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 5/20 个职位，成功 5 个
+2025-08-03 21:39:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 6 个职位: Java开发工程师
+2025-08-03 21:39:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 7 个职位: JAVA开发
+2025-08-03 21:39:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 8 个职位: Java后端开发工程师（医疗行业背景）
+2025-08-03 21:39:25 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 9 个职位: Java开发工程师
+2025-08-03 21:39:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 10 个职位: JAVA开发工程师 (MJ002539)
+2025-08-03 21:39:26 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 10/20 个职位，成功 10 个
+2025-08-03 21:39:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 11 个职位: Java开发（急招）
+2025-08-03 21:39:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 12 个职位: java软件开发工程师
+2025-08-03 21:39:26 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 13 个职位: JAVA开发中级工程师（急） (MJ002584)
+2025-08-03 21:39:27 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 14 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 21:39:27 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 15 个职位: java/c/c++/python/js/go软件开发工程师
+2025-08-03 21:39:27 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 15/20 个职位，成功 15 个
+2025-08-03 21:39:27 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 16 个职位: JAVA开发工程师 (MJ002539)
+2025-08-03 21:39:28 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 17 个职位: 华为生态 | 软件开发工程师（Java/Python/C++/Go/JS）
+2025-08-03 21:39:28 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 18 个职位: java开发工程师（鲲鹏fae）
+2025-08-03 21:39:28 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 19 个职位: 初级java开发工程师
+2025-08-03 21:39:28 | INFO     | modules.candidate:_parse_candidate_list:323 - ✓ 成功解析第 20 个职位: java软件开发工程师
+2025-08-03 21:39:28 | INFO     | modules.candidate:_parse_candidate_list:339 - 已解析 20/20 个职位，成功 20 个
+2025-08-03 21:39:28 | INFO     | modules.candidate:_parse_candidate_list:341 - 解析完成！总共处理 20 个职位卡片，成功解析 20 个职位信息
+2025-08-03 21:39:28 | INFO     | modules.candidate:search_candidates:89 - 第 1 页找到 20 个候选人
+2025-08-03 21:39:29 | INFO     | modules.candidate:search_candidates:94 - 搜索完成，共找到 20 个候选人
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:116 - 搜索到 20 个职位
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 1: java软件研发工程师 - java软件研发工程师 - 1-1.5万
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 2: 初级java开发工程师 - 初级java开发工程师 - 9000-12000元
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 3: java软件开发工程师 - java软件开发工程师 - 2-3万
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 4: Java开发上海 - Java开发上海 - 1.4-1.5万
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 5: Java开发 - Java开发 - 9000-15000元
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 6: Java开发工程师 - Java开发工程师 - 1.5-3万
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 7: JAVA开发 - JAVA开发 - 1.1-1.5万
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 8: Java后端开发工程师（医疗行业背景） - Java后端开发工程师（医疗行业背景） - 1-1.5万
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 9: Java开发工程师 - Java开发工程师 - 1-1.7万
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:120 - 职位 10: JAVA开发工程师 (MJ002539) - JAVA开发工程师 (MJ002539) - 1.8-3.5万
+2025-08-03 21:39:29 | INFO     | robust_usage:example_robust_get_candidate_details:129 - 准备获取 3 个职位的详细信息...
+2025-08-03 21:39:29 | INFO     | zhilian_bot:get_candidate_details:188 - 获取 3 个候选人的详细信息...
+2025-08-03 21:39:29 | INFO     | zhilian_bot:get_candidate_details:194 - 正在获取第 1/3 个职位详情...
+2025-08-03 21:39:29 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CC637432730J40814757308.htm?refcode=4019&srccode=401901&preactionid=1f32443d-4bc6-485f-bb40-c7e738eca937
+2025-08-03 21:41:32 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 21:41:32 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 21:41:32 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 21:41:32 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 21:41:53 | INFO     | modules.login:close:796 - 浏览器已关闭
+2025-08-03 21:41:53 | INFO     | zhilian_bot:stop:385 - 机器人已停止
+2025-08-03 21:41:53 | INFO     | modules.candidate:get_candidate_detail:572 - 成功获取职位详细信息: 未知
+2025-08-03 21:41:53 | INFO     | zhilian_bot:get_candidate_details:209 - ✓ 第 1 个职位获取成功: 未知
+2025-08-03 21:41:55 | INFO     | zhilian_bot:get_candidate_details:194 - 正在获取第 2/3 个职位详情...
+2025-08-03 21:41:55 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CC138117190J40798093005.htm?refcode=4019&srccode=401901&preactionid=1f32443d-4bc6-485f-bb40-c7e738eca937
+2025-08-03 21:42:13 | ERROR    | modules.candidate:get_candidate_detail:464 - 访问职位详情页失败: HTTPConnectionPool(host='localhost', port=54537): Max retries exceeded with url: /session/6fae7a44f4c0e230683b95c8280df8fd/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014819B68380>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-08-03 21:42:13 | WARNING  | zhilian_bot:get_candidate_details:215 - 第 2 个职位详情获取失败，返回为空
+2025-08-03 21:42:15 | INFO     | zhilian_bot:get_candidate_details:194 - 正在获取第 3/3 个职位详情...
+2025-08-03 21:42:15 | INFO     | modules.candidate:get_candidate_detail:452 - 获取候选人详细信息: http://www.zhaopin.com/jobdetail/CCL1480117890J40790552605.htm?refcode=4019&srccode=401901&preactionid=1f32443d-4bc6-485f-bb40-c7e738eca937
+2025-08-03 21:42:32 | ERROR    | modules.candidate:get_candidate_detail:464 - 访问职位详情页失败: HTTPConnectionPool(host='localhost', port=54537): Max retries exceeded with url: /session/6fae7a44f4c0e230683b95c8280df8fd/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014819B68D10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-08-03 21:42:32 | WARNING  | zhilian_bot:get_candidate_details:215 - 第 3 个职位详情获取失败，返回为空
+2025-08-03 21:42:34 | INFO     | zhilian_bot:get_candidate_details:235 - 候选人详情获取完成: 成功 1 个，失败 0 个，总计 1 个
+2025-08-03 21:42:34 | INFO     | modules.candidate:save_candidates_to_file:734 - 候选人信息已保存到 robust_detailed_candidates.json
+2025-08-03 21:42:34 | INFO     | robust_usage:example_robust_get_candidate_details:137 - 获取了 1 个候选人的详细信息
+2025-08-03 21:42:34 | INFO     | robust_usage:example_robust_get_candidate_details:141 - 详情 1: 未知 - 状态: 成功
+2025-08-03 21:42:34 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 21:42:34 | INFO     | modules.websocket_chat:disconnect:455 - WebSocket连接已断开
+2025-08-03 21:42:34 | INFO     | modules.message_forwarder:stop:99 - 消息转发服务已停止
+2025-08-03 21:42:54 | INFO     | modules.login:close:796 - 浏览器已关闭
+2025-08-03 21:42:54 | INFO     | zhilian_bot:stop:385 - 机器人已停止
+2025-08-03 22:02:09 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 22:02:11 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 22:02:11 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 22:02:11 | INFO     | zhilian_bot:stop:385 - 机器人已停止
+2025-08-03 22:02:11 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 22:02:11 | INFO     | zhilian_bot:stop:385 - 机器人已停止
+2025-08-03 22:02:19 | INFO     | zhilian_bot:initialize:45 - 正在初始化智联招聘机器人...
+2025-08-03 22:02:21 | INFO     | zhilian_bot:_signal_handler:38 - 收到退出信号，正在关闭...
+2025-08-03 22:02:21 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 22:02:21 | INFO     | zhilian_bot:stop:385 - 机器人已停止
+2025-08-03 22:02:21 | INFO     | zhilian_bot:stop:369 - 正在停止机器人...
+2025-08-03 22:02:21 | INFO     | zhilian_bot:stop:385 - 机器人已停止

@@ -1,0 +1,21 @@
+# 智联招聘账号配置（Windows系统推荐使用ZHILIAN_USERNAME避免冲突）
+ZHILIAN_USERNAME=16621536193  # 手机号（推荐）
+USERNAME=16621536193  # 手机号（兼容性保留）
+PASSWORD=  # 已废弃，智联招聘现在只支持手机验证码登录
+LOGIN_TYPE=sms  # sms（短信验证码）或 qrcode（二维码扫码）
+
+# 浏览器配置
+HEADLESS=false
+BROWSER_TIMEOUT=30
+
+# 中心服务器配置
+CENTER_SERVER_URL=http://your-center-server.com/api
+CENTER_SERVER_TOKEN=your_token_here
+
+# 日志配置
+LOG_LEVEL=INFO
+LOG_FILE=zhilian_bot.log
+
+# 其他配置
+REQUEST_DELAY=1.0
+MAX_RETRY_ATTEMPTS=3
